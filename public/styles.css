@@ -1,0 +1,6 @@
+body { font-family: 'Inter', sans-serif; margin: 0; background: #f4f2e9; color: #1b1f1c; }
+header { display: flex; justify-content: space-between; padding: 20px; background: #0a2117; color: white; }
+.cart-icon { cursor: pointer; }
+.cart-icon.bounce { animation: bounce 0.5s; }
+@keyframes bounce { 0%,100% {transform: translateY(0);} 50% {transform: translateY(-10px);} }
+footer { text-align: center; padding: 20px; background: #0a2117; color: white; }
