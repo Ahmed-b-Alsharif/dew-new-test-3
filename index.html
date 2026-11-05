@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dew Skincare</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f2e9; margin: 0; padding: 40px; text-align: center; }
+    h1 { color: #0a2117; }
+    .cart { font-size: 24px; margin: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Dew Skincare Store</h1>
+  <p>Welcome to our natural skincare store</p>
+  <div class="cart" id="cartIcon">🛒 <span id="cartCount">0</span></div>
+  <script>
+    document.getElementById('cartIcon').addEventListener('click', function() {
+      this.classList.add('bounce');
+      setTimeout(() => this.classList.remove('bounce'), 500);
+    });
+  </script>
+</body>
+</html>
